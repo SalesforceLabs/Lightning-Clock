@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lightning Clock</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <lightningComponents>
+        <isExposed>isExposed</isExposed>
+        <name>clock</name>
+        <targets>lightning__RecordPage</targets>
+        <targets>lightning__AppPage</targets>
+        <targets>lightning__HomePage</targets>
+        <targets>lightningCommunity__Page</targets>
+    </lightningComponents>
+    <namespacePrefix>wdkg</namespacePrefix>
+    <types>
+        <members>TimeZones</members>
+        <members>TimeZonesTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>clock</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>48.0</version>
+</Package>

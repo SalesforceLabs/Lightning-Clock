@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clock {
+    font-family: sans-serif;
+    display: flex;
+    overflow: hidden;
+}
+
+.clock::before, .clock::after {
+    content: '';
+    background: linear-gradient(to top, transparent, black);
+}
+
+.clock::after {
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, black);
+}
+
+.clock > div{
+    display: flex;
+}
+
+.timeSection {
+    font-size: 3rem;
+    color: #3e3e3c;
+    margin-right: 1rem;
+}
+
+.offsetLabel {
+    color:#706e6b;
+}
+
+.infoSection {
+    padding: 1rem;
+    min-width: 180px;
+}
+
+/* DARK MODE */
+.slds-card.darkMode{
+    background-color:#3e3e3c;
+    border-color: #3e3e3c;
+}
+
+.infoSection.darkMode {
+    color: #ecebea;
+}
+
+.infoSection.darkMode .offsetLabel {
+    color: #b0adab;
+}
+
+.timeSection.darkMode {
+    color: #ecebea;
+}
+
+.period {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #3e3e3c;
+    padding-top: 1.6rem;
+}
+
+.period.darkMode {
+    color: #ecebea;
+}
+
+.widthLarge,
+.widthMedium {
+    display: inline-block;
+}
+
+.slds-card+.slds-card {
+    margin-top: 0;
+}

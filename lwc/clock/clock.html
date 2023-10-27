@@ -1,0 +1,97 @@
+<template>
+    <!-- Clock 1 -->
+    <div class={_containerClass}>
+        <div class="container">
+            <div class={_infoSectionClass}>
+                <div class="offsetLabel label">{timeOffsetLabel1}</div>
+                <div class="timezone label">{_timeZone1Label}</div>
+            </div>
+            <div class={_timeSectionClass}>
+                <div class="clock">
+                    <div class="hours">
+                        <div class="number">{hour1}</div>
+                    </div>
+                    <div class="tick">:</div>
+                    <div class="minutes">
+                        <div class="number">{min1}</div>
+                    </div>
+                    <span if:false={_isMilitaryFormat} class={_periodClass}>
+                        {period}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clock 2 -->
+    <div if:true={_showTimeZone2} class={_containerClass}>
+        <div class="container">
+            <div class={_infoSectionClass}>
+                <div class="offsetLabel label">{timeOffsetLabel2}</div>
+                <div class="timezone label">{_timeZone2Label}</div>
+            </div>
+            <div class={_timeSectionClass}>
+                <div class="clock">
+                    <div class="hours">
+                        <div class="number">{hour2}</div>
+                    </div>
+                    <div class="tick">:</div>
+                    <div class="minutes">
+                        <div class="number">{min2}</div>
+                    </div>
+                    <span if:false={_isMilitaryFormat} class={_periodClass}>
+                        {period2}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clock 3 -->
+    <div if:true={_showTimeZone3} class={_containerClass}>
+        <div class="container">
+            <div class={_infoSectionClass}>
+                <div class="offsetLabel label">{timeOffsetLabel3}</div>
+                <div class="timezone label">{_timeZone3Label}</div>
+            </div>
+            <div class={_timeSectionClass}>
+                <div class="clock">
+                    <div class="hours">
+                        <div class="number">{hour3}</div>
+                    </div>
+                    <div class="tick">:</div>
+                    <div class="minutes">
+                        <div class="number">{min3}</div>
+                    </div>
+                    <span if:false={_isMilitaryFormat} class={_periodClass}>
+                        {period3}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clock 4 -->
+    <div if:true={_showTimeZone4} class={_containerClass}>
+        <div class="container">
+            <div class={_infoSectionClass}>
+                <div class="offsetLabel label">{timeOffsetLabel4}</div>
+                <div class="timezone label">{_timeZone4Label}</div>
+            </div>
+            <div class={_timeSectionClass}>
+                <div class="clock">
+                    <div class="hours">
+                        <div class="number">{hour4}</div>
+                    </div>
+                    <div class="tick">:</div>
+                    <div class="minutes">
+                        <div class="number">{min4}</div>
+                    </div>
+                    <span if:false={_isMilitaryFormat} class={_periodClass}>
+                        {period4}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

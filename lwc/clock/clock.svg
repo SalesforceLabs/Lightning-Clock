@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="48px" viewBox="0 0 49 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-22.000000, -72.000000)">
+            <g id="icons" transform="translate(18.000000, 66.000000)">
+                <g id="Group-4" transform="translate(4.000000, 6.000000)">
+                    <rect id="Rectangle" fill="#032E61" x="0" y="0" width="49" height="48" rx="3"></rect>
+                    <g id="Group-3" transform="translate(11.000000, 14.000000)">
+                        <g id="Group-2">
+                            <rect id="Rectangle" stroke="#FFFFFF" x="0.5" y="0.5" width="27" height="18"></rect>
+                            <text id="17:20" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="8" font-weight="normal" line-spacing="14" fill="#FFFFFF">
+                                <tspan x="3" y="9">17:20</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(24.000000, 13.000000)">
+                            <circle id="Oval" fill="#FFFFFF" cx="3" cy="5" r="3"></circle>
+                            <text id="+" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="7" font-weight="normal" fill="#032E61">
+                                <tspan x="1" y="7">+</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
